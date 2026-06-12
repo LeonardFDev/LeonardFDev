@@ -69,7 +69,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <a href="" target="_blank">
-    <img src="icons/portfolio_page.svg" width="52" height="40" alt="portfolio page logo"  />
+    <img src="icons/portfolio_page.svg" alt="portfolio page logo"  />
   </a>
 </div>
 
