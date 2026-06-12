@@ -74,3 +74,7 @@
 </div>
 
 ###
+
+<img src="icons/footer.svg" alt="portfolio page logo"  />
+
+###
