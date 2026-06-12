@@ -24,7 +24,7 @@
   <!-- Background -->
   <rect width="1200" height="160" fill="url(#darkGradFooter)" />
 
-  <!-- Wave (inverse feel) -->
+  <!-- Wave -->
   <path fill="rgba(56,189,248,0.12)" filter="url(#glow)">
     <animate attributeName="d"
       dur="10s"
@@ -50,11 +50,11 @@
 
   <!-- Footer Text -->
   <text x="50%" y="85" text-anchor="middle"
-        fill="#e2e8f0"
-        font-size="30"
+        fill="#ffffff"
+        font-size="26"
         font-family="Verdana"
         filter="url(#glow)">
-    Thanks for visiting 🚀
+    Thanks for stopping by. Here you can check out my projects.
   </text>
 
 </svg>
