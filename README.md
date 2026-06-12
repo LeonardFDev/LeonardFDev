@@ -1,4 +1,4 @@
-<img src="icons/header.svg" alt="portfolio page logo"  />
+<img src="banners/header.svg" alt="portfolio page logo"  />
 
 ###
 
@@ -75,6 +75,6 @@
 
 ###
 
-<img src="icons/footer.svg" alt="portfolio page logo"  />
+<img src="banners/footer.svg" alt="portfolio page logo"  />
 
 ###
