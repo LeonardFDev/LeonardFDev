@@ -1,0 +1,69 @@
+<svg width="100%" height="320px" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Dark Gradient -->
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#020617;#0f172a" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#0f172a;#020617" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#darkGrad)" />
+
+  <!-- Wave -->
+  <path fill="rgba(56,189,248,0.15)" filter="url(#glow)">
+    <animate attributeName="d"
+      dur="10s"
+      repeatCount="indefinite"
+      values="
+      M0,200 C250,280 950,120 1200,200 L1200,320 L0,320 Z;
+      M0,220 C250,140 950,300 1200,220 L1200,320 L0,320 Z;
+      M0,200 C250,280 950,120 1200,200 L1200,320 L0,320 Z
+      " />
+  </path>
+
+  <!-- Subtle Wave -->
+  <path fill="rgba(147,197,253,0.08)">
+    <animate attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+      M0,180 C300,250 900,110 1200,180 L1200,320 L0,320 Z;
+      M0,200 C300,120 900,260 1200,200 L1200,320 L0,320 Z;
+      M0,180 C300,250 900,110 1200,180 L1200,320 L0,320 Z
+      " />
+  </path>
+
+  <!-- Greeting -->
+  <text x="50%" y="90" text-anchor="middle"
+        fill="#94a3b8"
+        font-size="28"
+        font-family="Verdana"
+        opacity="0.95">
+    Hey 👋 What's up?
+  </text>
+
+  <!-- Main Title -->
+  <text x="50%" y="170" text-anchor="middle"
+        fill="#e2e8f0"
+        font-size="58"
+        font-family="Verdana"
+        filter="url(#glow)">
+    Welcome to my GitHub
+  </text>
+
+</svg>
