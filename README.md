@@ -66,7 +66,7 @@
 
 <div align="left">
   <a href="https://de.linkedin.com/in/leonard-fritzmann-302269352" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="linkedin logo"  />
+    <img src="icons/linkedin.svg" alt="linkedin logo"  />
   </a>
   <a href="" target="_blank">
     <img src="icons/portfolio_page.svg" alt="portfolio page logo"  />
