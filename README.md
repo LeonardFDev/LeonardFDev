@@ -1,4 +1,4 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<img src="icons/header.svg" alt="portfolio page logo"  />
 
 ###
 
