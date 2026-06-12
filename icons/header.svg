@@ -1,4 +1,4 @@
-<svg width="100%" height="320px" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="220px" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <!-- Dark Gradient -->
@@ -13,7 +13,7 @@
 
     <!-- Glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -22,7 +22,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="320" fill="url(#darkGrad)" />
+  <rect width="1200" height="220" fill="url(#darkGrad)" />
 
   <!-- Wave -->
   <path fill="rgba(56,189,248,0.15)" filter="url(#glow)">
@@ -30,9 +30,9 @@
       dur="10s"
       repeatCount="indefinite"
       values="
-      M0,200 C250,280 950,120 1200,200 L1200,320 L0,320 Z;
-      M0,220 C250,140 950,300 1200,220 L1200,320 L0,320 Z;
-      M0,200 C250,280 950,120 1200,200 L1200,320 L0,320 Z
+      M0,140 C250,200 950,80 1200,140 L1200,220 L0,220 Z;
+      M0,160 C250,100 950,210 1200,160 L1200,220 L0,220 Z;
+      M0,140 C250,200 950,80 1200,140 L1200,220 L0,220 Z
       " />
   </path>
 
@@ -42,25 +42,25 @@
       dur="12s"
       repeatCount="indefinite"
       values="
-      M0,180 C300,250 900,110 1200,180 L1200,320 L0,320 Z;
-      M0,200 C300,120 900,260 1200,200 L1200,320 L0,320 Z;
-      M0,180 C300,250 900,110 1200,180 L1200,320 L0,320 Z
+      M0,120 C300,170 900,70 1200,120 L1200,220 L0,220 Z;
+      M0,130 C300,80 900,180 1200,130 L1200,220 L0,220 Z;
+      M0,120 C300,170 900,70 1200,120 L1200,220 L0,220 Z
       " />
   </path>
 
   <!-- Greeting -->
-  <text x="50%" y="90" text-anchor="middle"
+  <text x="50%" y="70" text-anchor="middle"
         fill="#94a3b8"
-        font-size="28"
+        font-size="22"
         font-family="Verdana"
         opacity="0.95">
     Hey 👋 What's up?
   </text>
 
   <!-- Main Title -->
-  <text x="50%" y="170" text-anchor="middle"
+  <text x="50%" y="135" text-anchor="middle"
         fill="#e2e8f0"
-        font-size="58"
+        font-size="48"
         font-family="Verdana"
         filter="url(#glow)">
     Welcome to my GitHub
