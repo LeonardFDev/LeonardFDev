@@ -69,14 +69,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <a href="" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="40" fill="none"
-     stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="3" y="5" width="18" height="14" rx="2"/>
-      <path d="M3 9h18"/>
-      <circle cx="13" cy="7" r="1" fill="#f59e0b" stroke="none"/> <!-- 🟡 -->
-      <circle cx="16" cy="7" r="1" fill="#22c55e" stroke="none"/> <!-- 🟢 -->
-      <circle cx="19" cy="7" r="1" fill="#ef4444" stroke="none"/> <!-- 🔴 -->
-    </svg>
+    <img src="icons/portfolio_page.svg" width="52" height="40" alt="portfolio page logo"  />
   </a>
 </div>
 
